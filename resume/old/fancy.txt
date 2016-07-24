@@ -1,0 +1,478 @@
+TITLE: Brian T. Rice 
+
+= Brian T. Rice = 
+
+== Dynamic Languages Software Developer == 
+
+http://tunes.org/~water[1]
+water@tunes.org[2]
+(206) 938-3710
+2700 Alki Ave. SW #303
+Seattle, WA 98116 
+
+== Objective == 
+
+To broaden my experience as a software developer in dynamic languages and 
+flexible applications, and to work on projects with significant technical and 
+design challenges. 
+
+== Skills == 
+
+=== Programming Languages === 
+
+==== Practical: ==== 
+
+Smalltalk[3] (using Squeak[4], Dolphin[5], and VisualWorks[6], for web and 
+desktop), Lisp[7]/CLOS (using CMUCL, SBCL, MCL for Unix server environments), 
+ANSI C/C99, C++ (including templates), C#[8], Java[9], Objective-C[10], Perl, 
+Pascal, PHP, ("Visual" and otherwise) Basic. 
+
+==== Familiar: ==== 
+
+Maude[11], Erlang/OTP[12], Self[13], Beta[14], Forth[15], Haskell[16], ProGraph
+[17], Oberon[18]/Juice, J[19], ML[20], Clean[21], Joy[22], Ada[23], Cobol, 
+PostScript, Tcl. 
+
+==== Assembly & Machine Code: ==== 
+
+Intel 80x86 family and Pentium series, IBM PowerPC family (603e and 750), 
+Motorola(?) 6502 and 65c02, Motorola 68k, Sparc 9, Alpha, MIPS. 
+
+=== Formats/Document Languages === 
+
+(X)HTML, CSS, Javascript, PHP, XML, OWL/RDF, RSS, LaTeX. 
+
+=== Software Environments: === 
+
+==== Operating Systems: ==== 
+
+- AppleDOS, MS-DOS, DOS4GW, Windows 3.1, 95, 98, NT, XP. 
+- Linux, FreeBSD, BeOS, MacOS 8.0 - 9.1, NeXT and OpenSTEP, Mac OS X. 
+- Language-based platforms are a favorite: Symbolics, Inc.[24] Genera 
+Environment for Lisp Machines[25] (I personally own a MacIvory II[26]), Squeak
+[27] Smalltalk[28]. 
+
+==== Database ==== 
+
+Intermediate Level of experience in development, design, deployment, 
+user-testing, reporting, and requirements in: 
+
+MS SQL Server[29] and VB 53 years experience in all roles of a traditional 
+development team for client-server desktop applications for a large 
+organization. PostGreSQL[30] database2 years experience in all roles. 
+
+=== Subjects === 
+
+==== Internet Applications ==== 
+
+Intermediate levels of experience in: 
+
+- Perl/PHP development in web services, for 3 years, for large scale 
+database-backed sites with secure applications and large loads. 
+- Lisp/Smalltalk development for interactive, intelligent, fault-tolerant web 
+services, including dynamic template composition and cookieless stateful 
+transaction support. 
+
+==== Network Security ==== 
+
+I've developed projects implementing advanced research for intrusion-detection 
+technologies, as well as reporting tools and network management interfaces. 
+
+==== C programming in systems and graphics ==== 
+
+I spent a year (summer 1997 - spring 1998) developing a very high performance 
+3-D graphics game engine for a proto-startup company, optimized for huge 
+populations of data and intricate physics simulation detail. 
+
+==== Compiler Development ==== 
+
+I have developed over the years various frameworks for code-walking and 
+optimization, for object-oriented and logical languages. 
+
+==== CAD/CAM ==== 
+
+I worked for several engineering firms in the early 90's, developing software 
+in CAD development environments, and produced walk-through setups, engineering 
+aids, and custom tooling software. 
+
+=== Methodologies === 
+
+==== Object-Oriented Programming: ==== 
+
+- Refactoring[31] 
+- Design Pattern[32] usage 
+- UML[33] for design and documentation 
+- Unit-test[34]-driven development. 
+
+=== Others === 
+
+
+
+Skill Name 
+Skill Level 
+Last Used 
+Experience
+
+
+
+Quality Assurance Methods and Testing 
+Intermediate 
+1 year ago 
+4 years
+
+
+Computational Mathematics and Logic 
+Expert 
+Current 
+6 years
+
+
+Formal Methods in Software Engineering 
+Intermediate 
+Current 
+1 years
+
+
+Nuclear Reactor Operator / Technician 
+Intermediate 
+1 year ago 
+6 years
+
+
+== Experience == 
+
+=== Software Design and Research Consultant === 
+
+
+
+12/2002 - Present
+
+
+Ibis Information Securities
+
+
+Seattle, WA
+
+
+
+Consulted in the development of innovative wireless technologies and the 
+software required to manage them. Also consulted in the field of online 
+data-mining in the systems security field. I designed and developed an 
+innovative product using dynamic language technologies. 
+
+=== Owner === 
+
+
+
+5/2002 - Present
+
+
+LOGOS Research and Development
+
+
+Seattle, WA
+
+
+
+Design, development, and testing of "Clean Slate" Smalltalk[35]: a new 
+programming language and software architecture intended to demonstrate and 
+bring up to date many technologies from various systems into one coherent 
+whole. This will constitute a new kind of software platform which should be 
+commercially viable within the year. 
+
+The major aims of this project have been to deliver a new openly-available 
+Smalltalk platform with enhanced semantics, development environment, and 
+run-time characteristics while providing upwards compatibility with existing 
+Smalltalk designs. 
+
+This is a continuing development of 2 years of previous work and research 
+development in the Common Lisp and Squeak Smalltalk open-source communities on 
+compiler optimizations and environment design. 
+
+=== Lead Developer === 
+
+
+
+2/2001 - Present
+
+
+ForeHorseNet, Inc.
+
+
+Seattle, WA
+
+
+
+Worked with the company founders to develop a coherent technical strategy for 
+the product, by evaluating customer requirements, marketing issues, and 
+suitable technologies and budgeting requirements. 
+
+Developed PHP and JSP web applications, automated handling of XML meta-data, 
+Java applets, designed the schema and developed it for a robust set of services 
+over PostGreSQL and MySQL. 
+
+=== Database Applications Programmer, Technician === 
+
+
+
+3/1996 - 3/2002
+
+
+U.S. Navy
+
+
+Bremerton, WA
+
+
+
+Electrical and electronics troubleshooting and repair, supervision and 
+training, database applications programmer and administrator for the 
+coordination of hundreds of work activities and information management. Managed 
+a working group for equipment maintenance for over 2 years. Managed a system 
+for equipment Quality Assurance, vibration monitoring, and software management 
+for 2 years. 
+
+Developed from scratch a database client-server setup with applications for the 
+coordination and scheduling of activities and their dependencies for the 
+nuclear and engineering sections of a nuclear aircraft carrier as well as its 
+associated shipyard activity. This involved software requirements outlining, 
+meetings with several entities along with study of the existing systems in 
+effect, design, deployment, and user testing and feedback, and database and 
+systems management. I also developed a prototype for a much more capable 
+automation system using Dolphin Smalltalk which was eventually discarded to 
+honor previous contract commitments. The system had several hundred users, with 
+several layers of authorization and up to a dozen concurrent users in normal 
+operation, along with an extensive reporting facility and mechanisms in place 
+for assuring data accuracy and transaction logging. 
+
+== Education == 
+
+=== Independent Study === 
+
+I have been educating myself over the years, accumulating quite a library and 
+using it regularly. A selection of it is published online[36]. 
+
+=== Professional === 
+
+
+
+6/1996 - 1/1998
+
+
+Naval Nuclear Power School
+
+
+US-FL-Orlando
+
+
+
+Completed the U.S. Navy's Nuclear Operator and Technician training program, 
+involving physics, mathematics, and engineering examinations as well as 
+applying the theory to operate a live power station. 
+
+=== Some University Coursework Completed === 
+
+
+
+5/1995 - 3/1996
+
+
+Texas A&M University
+
+
+US-TX-College Station
+
+
+
+Completed two years of course work in engineering and mathematics, along with 
+much independent study in computer science and mathematics, logic and 
+philosophy. Dropped out due to financial issues at the time. 
+
+During this time, I was a lab assistant for the engineering computing 
+department, and employed as a tutor for mathematics and computer science quite 
+successfully. I was also independently employed as a freelance software and 
+systems troubleshooter for several engineering firms and accounting offices in 
+the greater Houston area. 
+
+== Affiliations == 
+
+
+Duration
+
+Organization
+
+Role
+
+
+11/2002 - Present 
+Smalltalk Industry Council 
+Member
+
+
+10/2002 - Present 
+Association of Lisp Users 
+Member
+
+
+10/1999 - Present 
+Tunes.org Non-profit Development Project 
+Lead Researcher, Designer, and Coordinator
+
+
+
+== Additional Information == 
+
+I have been independently researching a very wide variety of computer science 
+concepts and implementation techniques for the last 7 years. It is my intention 
+to bring these together in a single comprehensive system that should provide an 
+economically attractive next-generation computing platform. 
+
+I delivered research papers to two conferences in 2002, Camp Smalltalk at 
+OOPSLA[37] and the International Lisp Conference[38], detailing some of the 
+steps toward this end. I also presented further results at the Smalltalk 
+Solutions[39] conference in July, 2003. All were well-received. 
+
+== References == 
+
+
+Name
+
+Company
+
+Title
+
+Contact
+
+
+Glenn Messner
+
+ForeHorseNet, Inc.
+
+CEO 
+
+
+
+Phone:
+
+360-340-3348
+
+
+Email:
+
+gmessner@forehorse.net[40] 
+
+
+
+
+
+Matthew Harmon
+
+Ibis
+
+Owner 
+
+
+
+Phone:
+
+206-369-4065
+
+
+Email:
+
+mjh@itys.net[41] 
+
+
+
+
+
+Elric Scott
+
+Dierking-Scott Enterprises
+
+Network/Systems Security Consultant 
+
+
+
+Phone:
+
+206-285-1613
+
+
+Email:
+
+elric@elric.com[42]
+
+
+
+
+
+Aaron Hoffer
+
+Washington Mutual
+
+Smalltalk Software Engineer 
+
+
+
+Phone:
+
+206-226-4238
+
+
+Email:
+
+aaron@hoffer.org[43]
+
+
+
+
+
+-------------------------------------------------------------------------------- 
+
+Brian Rice[44] Last modified: Mon Sep 29 12:55:35 PDT 2003 
+
+[1]  http://tunes.org/~water/
+[2]  mailto:water@tunes.org
+[3]  http://www.smalltalk.org/
+[4]  http://squeak.org
+[5]  http://object-arts.com
+[6]  http://cincomsmalltalk.com
+[7]  http://www.lisp.org/
+[8]  http://directory.google.com/Top/Computers/Programming/Languages/C-sharp
+[9]  http://java.sun.com
+[10] http://directory.google.com/Top/Computers/Programming/Languages/Objective-C
+[11] http://maude.csl.sri.com
+[12] http://www.erlang.org
+[13] http://www.sun.com/research/self
+[14] http://www.daimi.au.dk/~beta
+[15] http://www.forth.org
+[16] http://www.haskell.org
+[17] http://www.pictorius.com
+[18] http://www.oberon.ethz.ch
+[19] http://www.jsoftware.com
+[20] http://directory.google.com/Top/Computers/Programming/Languages/ML
+[21] http://www.cs.kun.nl/~clean
+[22] http://www.latrobe.edu.au/www/philosophy/phimvt/j00syn.html
+[23] http://directory.google.com/Top/Computers/Programming/Languages/Ada
+[24] http://www.symbolics.com/
+[25] http://dmoz.org/Computers/Programming/Languages/Lisp/Lisp_Machines/
+[26] http://fare.tunes.org/LispM.html
+[27] http://www.squeak.org/
+[28] http://www.smalltalk.org
+[29] http://www.microsoft.com/sql/default.asp
+[30] http://www.postgresql.com/
+[31] http://www.refactoring.com/
+[32] http://hillside.net/patterns/
+[33] http://www.uml.org/
+[34] http://www.xprogramming.com/
+[35] http://slate.tunes.org/
+[36] http://tunes.org/~water/books.html
+[37] http://oopsla.acm.org
+[38] http://www.international-lisp-conference.org
+[39] http://www.smalltalksolutions.com/
+[40] mailto:voodoo@tscnet.com
+[41] mailto:mjh@itys.net
+[42] mailto:elric@elric.com
+[43] http://tunes.org/~water/aaron@hoffer.org
+[44] mailto:water@tunes.org

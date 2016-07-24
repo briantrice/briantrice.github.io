@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Brian T. Rice</title>
+    <meta name="description" content="Brian T. Rice's Resume">
+    <meta name=robots content="noindex,nofollow">
+    <style type="text/css">
+<!--
+BODY { font-size: 9; font-family: arial, helvetica, sans-serif; color: Black;
+      left-margin: 10%; right-margin: 10%; top-margin: 5%; bottom-margin: 5% }
+H2 { font-variant: small-caps }
+TABLE { left-padding: 10%; width: 100% font-size: 8 }
+TABLE THEAD { border-bottom: thin solid }
+A { color: green }
+.header { text-align: center }
+-->
+    </style>
+    <style type="text/css" media="screen">
+<!--
+BODY { background-color: White }
+-->
+    </style>
+    <style type="text/css" media="print">
+<!--
+TABLE TR, TABLE HEAD { border: 1px solid black }
+-->
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Brian T. Rice</h1>
+      <h2>Software Design Engineer in Testing</h2>
+      <p>
+	<a href="http://tunes.org/~water/">http://tunes.org/~water</a><br>
+	<a href="mailto:water@tunes.org">water@tunes.org</a><br>
+	(206) 938-3710<br>
+	2700 Alki Ave. SW #303<br>
+	Seattle, WA 98116</p>
+    </div>
+<h2>Objective</h2>
+    <p>To broaden my experience as a software design engineer in testing.</p>
+
+<h2>Availability</h2>
+<p>Immediately.</p>
+
+<h2>Skills</h2>
+    <h4>Systems/Applications Languages</h4>
+    <p>ANSI C/C99, C++ (including templates),
+      <a href="http://directory.google.com/Top/Computers/Programming/Languages/C-sharp">C#</a>
+      <a href="http://java.sun.com">Java</a>,
+      <a href="http://directory.google.com/Top/Computers/Programming/Languages/Objective-C">Objective-C</a>,
+      Perl, Pascal, PHP, ("Visual" and otherwise) Basic.</p>
+    <h4>Shell scripting</h4>
+    <p>bash, tcsh, csh, Windows Scripting Host.</p>
+    <h4>Assembly &amp; Machine Code:</h4>
+    <p>Intel 80x86 family and Pentium series, IBM PowerPC family (603e and 750), Motorola 68k, Sparc.</p>
+    <h4>Formats/Document Languages</h4>
+    <p>(X)HTML, CSS, Javascript, PHP, XML, OWL/RDF, RSS, LaTeX.</p>
+    <h4>Operating Systems:</h4>
+    <p>Windows 3.1, 95, 98, NT, XP., Linux, FreeBSD, MacOS 8.0 - 9.1, MacOS X.</li>
+    <h4>Internet Applications</h4>
+    <p>Intermediate levels of experience in:</p>
+    <ul>
+      <li>Perl/PHP development in web services, for 3 years, for large scale database-backed sites with secure applications and large loads.</li>
+      <li>Independent development of interactive, intelligent, fault-tolerant web services, including dynamic template composition and cookieless stateful transaction support.</li>
+    </ul>
+    <h4>Network Security</h4>
+    <p>I've developed projects implementing advanced research for intrusion-detection technologies, as well as reporting tools and network management interfaces.</p>
+    <h4>C programming in systems and graphics</h4>
+    <p>I spent a year (summer 1997 - spring 1998) developing a very high performance 3-D graphics game engine for a proto-startup company, optimized for huge populations of data and intricate physics simulation detail.</p>
+    <h4>Compiler Development</h4>
+    <p>I have developed over the years various frameworks for code-walking and optimization, for object-oriented and logical languages.</p>
+    <h4>Documentation/Writing</h4>
+    <p>I have developed API reference manuals and tutorials for several of my own packages as well as other open source packages. I have also participated in drafting a grant proposal to the State of Washington concerning technology resource.</p>
+    <h4>CAD/CAM</h4>
+    <p>I worked for several engineering firms in the early 90's, developing software in CAD development environments, and produced walk-through setups, engineering aids, and custom tooling software.</p>
+    <h3>Methodologies</h3>
+    <h4>Object-Oriented Programming:</h4>
+    <p><a href="http://www.refactoring.com/">Refactoring</a>, <a href="http://hillside.net/patterns/">Design Pattern</a> usage, <a href="http://www.uml.org/">UML</a> for design and documentation, <a href="http://www.xprogramming.com/">Unit-test</a>-driven development.</p>
+    <h4>Testing</h4>
+    <p>Testing has been an integral part of my work for over 6 years, developing test harnesses for my frameworks using unit tests, regression tests, testing for load-tolerance, performance (using profiling across a range of conditions), and requirements compliance.</p>
+
+<h2>Employment History</h2>
+
+<h3>Owner</h3>
+    <p>5/2002 - Present, LOGOS Research and Development</p>
+    <p>Design, development, and testing of <a href="http://slate.tunes.org/">"Clean Slate" Smalltalk</a>: a new programming language and software architecture intended to demonstrate and bring up to date many technologies from various systems into one coherent whole.</p>
+
+<h3>Lead Developer</h3>
+      <p>2/2001 - Present, ForeHorseNet, Inc.</p>
+      <p>Worked with the company founders to develop a coherent technical strategy for the product, by evaluating customer requirements, marketing issues, and suitable technologies and budgeting requirements.</p>
+    <p>Developed PHP and JSP web applications, automated handling of XML meta-data, Java applets, designed the schema and developed it for a robust set of services over PostGreSQL and MySQL.</p>
+
+<h3>Software Design and Research Consultant</h3>
+    <p>12/2002 - 1/2003, Ibis Information Securities</p>
+    <p>Consulted in the development of innovative wireless technologies and the software required to manage them. Also consulted in the field of online data-mining in the systems security field. I designed and developed an innovative product using dynamic language technologies.</p>
+
+<h3>Workflow Applications Programmer, Technician</h3>
+    <p>3/1996 - 3/2002, U.S. Navy</p>
+    <p>Electrical and electronics troubleshooting and repair, supervision and training, database applications programmer and administrator for the coordination of hundreds of work activities and information management. Managed a working group for equipment maintenance for over 2 years. Managed a system for equipment Quality Assurance, vibration monitoring, and software management for 2 years.</p>
+    <p>Developed from scratch a database client-server setup with applications for the coordination and scheduling of activities and their dependencies for the nuclear and engineering sections of a nuclear aircraft carrier as well as its associated shipyard activity. This involved software requirements outlining, meetings with several entities along with study of the existing systems in effect, design, deployment, and user testing and feedback, and database and systems management.</p>
+
+<h2>Education</h2>
+    <p>Self-education. A selection of it is <a href="http://tunes.org/~water/books.html">published online</a>.</p>
+    <p>6/1996 - 1/1998,
+      Naval Nuclear Power School,
+      US-FL-Orlando</p>
+    <p>Completed the U.S. Navy's Nuclear Operator and Technician training program, involving physics, mathematics, and engineering examinations as well as applying the theory to operate a live power station.</p>
+    <p>5/1995 - 3/1996,
+      Texas A&amp;M University,
+      US-TX-College Station</p>
+    <p>Completed two years of course work in engineering and mathematics, along with much independent study in computer science and mathematics, logic and philosophy. Left due to financial issues at the time.</p>
+    <p>Jobs: engineering computing lab assistant, maths/CS tutor, freelance software and systems troubleshooter for engineering firms and accounting offices.</p>
+
+<h2>References</h2>
+    <table>
+      <thead>
+	<tr><th>Name</th><th>Company</th><th>Title</th><th>Contact</th></tr>
+      </thead>
+      <tbody>
+	<tr><td>Glenn Messner</td><td>ForeHorseNet, Inc.</td><td>CEO</td>
+	<td>360-340-3348, <a href="mailto:voodoo@tscnet.com">gmessner@forehorse.net</a></td></tr>
+	<tr><td>Matthew Harmon</td><td>Ibis</td><td>Owner</td>
+	  <td>206-369-4065, <a href="mailto:mjh@itys.net">mjh@itys.net</a></td></tr>
+	<tr><td>Elric Scott</td><td>Dierking-Scott Enterprises</td><td>Network/Systems Security Consultant</td>
+	  <td>206-285-1613, <a href="mailto:elric@elric.com">elric@elric.com</a></td></tr>
+	<tr><td>Aaron Hoffer</td><td>Washington Mutual</td><td>Smalltalk Software Engineer</td>
+	  <td>206-226-4238, <a href="mailto:aaron@hoffer.org">aaron@hoffer.org</a></td></tr>
+      </tbody>
+    </table>
+  </body>
+</html>

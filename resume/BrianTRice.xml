@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resume PUBLIC "-//Sean Kelly//DTD Resume 1.5.1//EN"
+	  "http://xmlresume.sourceforge.net/dtd/resume.dtd">
+<resume>
+
+  <header>
+    <name>
+      <firstname>Brian</firstname>
+      <middlenames>T.</middlenames>
+      <surname>Rice</surname>
+    </name>
+    <address>
+      <street>6512 C 34th Ave. NE</street>
+      <city>Seattle</city> <state>WA</state> <zip>98115</zip>
+    </address>
+    <contact>
+      <phone>206.697.5489</phone>
+      <email>BrianTRice@gmail.com</email>
+      <url>http://briantrice.com</url>
+    </contact>
+    <birth>
+      <date>
+	<dayOfMonth>17</dayOfMonth><month>October</month><year>1977</year>
+      </date>
+    </birth>
+  </header>
+
+  <objective targets="startup,compsci">
+    <para>As a software developer/analyst and programming language expert, I am looking for a position where I can participate in new and innovative projects in software product or web application design and development, whether in a startup company or spin-off environment.</para>
+    <para>Having actively pursued experience in a wide variety of programming languages, and developed my own for further investigation, I am unusually capable at identifying powerful abstractions, without being tied to a particular toolset.</para>
+    <!--
+    <para>Having studied many different systems, I am expert at identifying abstractions that go beyond conventional experience. I identify software design migration paths that lead to simpler and more sound architecture, leading to lower maintenance and higher ease of extension for the customer over the product's lifetime.</para>
+    -->
+  </objective>
+
+  <history>
+
+    <job target="embedded,compsci,startup">
+      <jobtitle>iPhone Software Developer</jobtitle>
+      <employer>Various, on contract</employer>
+      <location><city>Seattle</city><state>WA</state></location>
+      <period>
+	<from><date><month>September</month><year>2008</year></date></from>
+	<to><present/></to>
+      </period>
+      <description>
+	<para>Worked with Proximi.com (MagicPad and two unreleased iPhone geo-apps) and other iPhone vendors on client-server applications. Responsibilities included development, testing, and debugging in Objective-C, Gemstone/S, and Erlang/OTP. I also have my own application in development which is photography- and internet-centric. I have participated in local iPhone developer meetings including XCoders.</para>
+      </description>
+    </job>
+
+    <job targets="compsci,webdev,startup">
+      <jobtitle>Software Development Consultant</jobtitle>
+      <employer>211 LA County</employer>
+      <location><city>Seattle</city><state>WA</state></location>
+      <location><city>Los Angeles</city><state>CA</state></location>
+      <period>
+	<from><date><month>April</month><year>2007</year></date></from>
+	<to><date><month>September</month><year>2008</year></date></to>
+      </period>
+      <description>
+	<para>Implemented revamped core operations software for 211 information and referral hotline for social services in a small team of contractors. Responsibilities ranged from the front-end to the back-end, and included consultation with the client on design, deployment, and configuration issues. Conducted both interactive and double-blind user tests, and implemented a regular delivery schedule soliciting structured feedback. The product is an in-house web application that relies heavily on AJAX programming and keyboard navigability for interaction efficiency.</para>
+      </description>
+    </job>
+
+    <job targets="compsci,startup,lisp,smalltalk">
+      <jobtitle>Owner</jobtitle>
+      <employer>LOGOS Research and Development</employer>
+      <location><city>Seattle</city><state>WA</state></location>
+      <period>
+	<from><date><month>May</month><year>2002</year></date></from>
+	<to><present/></to>
+      </period>
+      <description>
+	<para>Design, development, and testing of <link href="http://slatelanguage.org">"Clean Slate" Smalltalk</link>: a new programming language and software architecture intended to integrate and improve many disparate technologies into one coherent whole.</para>
+      </description>
+    </job>
+
+    <job targets="compsci">
+      <jobtitle>Lead Software Developer</jobtitle>
+      <employer>Activated Content, Inc.</employer>
+      <location><city>Seattle</city><state>WA</state></location>
+      <period>
+	<from><date><month>March</month><year>2006</year></date></from>
+	<to><date><month>August</month><year>2006</year></date></to>
+      </period>
+      <description>
+	<para>Digital forensic audio watermarking software research, planning and development for a startup-level effort to expand into non-forensic markets. Provided a sound technical product and services basis for deals with major music and media production companies to innovate in the digital music marketplace. Revamped an existing product line to support a wider market.</para>
+      </description>
+    </job>
+
+    <job targets="compsci,lisp,consulting">
+      <jobtitle>Firmware Developer, as Independent Contractor</jobtitle>
+      <employer>Coastal Environmental Systems</employer>
+      <location><city>Seattle</city><state>WA</state></location>
+      <period>
+	<from><date><month>June</month><year>2005</year></date></from>
+	<to><date><month>October</month><year>2005</year></date></to>
+      </period>
+      <description>
+	<para>Embedded systems software development for weather and environmental autonomous sensing stations. This involved maintenance, documentation, upgrade of legacy code and extensions, configuration management, debugging, functional testing, documentation, and reliability testing of the product. Prepared high-level documentation on the overall parameters and design of the product, and developed a set of recommendations for moving the product forward.</para>
+      </description>
+    </job>
+
+    <job targets="compsci,dba,db">
+      <jobtitle>Data Warehousing Systems Engineer</jobtitle>
+      <employer>Microsoft, Inc., MSN iDSS division (via Volt Information Services)</employer>
+      <location><city>Redmond</city><state>WA</state></location>
+      <period>
+	<from><date><month>February</month><year>2004</year></date></from>
+	<to><date><month>February</month><year>2005</year></date></to>
+      </period>
+      <description>
+	<para>Deployed, troubleshot, and operated data-warehouse ETL pipelines. Catalogued and replaced legacy infrastructure software. Administered SQL Server/OLAP installations and developed a database application for auditing and automation. Negotiated with multiple MSN organizations on interaction protocols and software deployment issues. Developed clustering and optimized pipeline configurations for robustness and performance.</para>
+      </description>
+      <projects>
+	<project>
+	  <title><link href="http://advertising.microsoft.com/search-advertising/introducing-adcenter">MSN adCenter</link></title>
+	</project>
+      </projects>
+    </job>
+
+    <job targets="compsci,startup,consulting">
+      <jobtitle>Software Design and Research Consultant</jobtitle>
+      <employer>Ibis Information Securities</employer>
+      <location><city>Seattle</city><state>WA</state></location>
+      <period>
+	<from><date><month>December</month><year>2002</year></date></from>
+	<to><date><month>June</month><year>2003</year></date></to>
+      </period>
+      <description>
+	<para>Consulted in the development of innovative wireless technologies and the software required to manage them. Also consulted in the field of online data-mining in the systems security field. I designed and developed an innovative product using dynamic language technologies.</para>
+      </description>
+    </job>
+
+    <job targets="compsci,startup">
+      <jobtitle>Lead Developer</jobtitle>
+      <employer>ForeHorseNet, Inc.</employer>
+      <location><city>Seattle</city><state>WA</state></location>
+      <period>
+	<from><date><month>February</month><year>2001</year></date></from>
+	<to><date><month>December</month><year>2003</year></date></to>
+      </period>
+      <description>
+	<para>Worked with the company founders to develop a coherent technical strategy for the product (online payment system), by evaluating customer requirements, marketing issues, and suitable technologies and budgeting requirements.</para>
+      </description>
+    </job>
+
+    <!--
+    <job targets="nuclear,dba,compsci">
+      <jobtitle>Nuclear Reactor Technician, Workflow Applications Programmer</jobtitle>
+      <period>
+	<from><date><month>March</month><year>1996</year></date></from>
+	<to><date><month>March</month><year>2002</year></date></to>
+      </period>
+      <employer>U.S. Navy</employer>
+      <location>USS Carl Vinson <city>Bremerton</city><state>WA</state></location>
+      <description>
+	<para>Electrical and electronics troubleshooting and repair, supervision and training. Managed a working group for equipment maintenance for over 2 years.</para>
+	<para>Designed, developed, and deployed a database client-server workflow application for coordinating and scheduling activities and their dependencies for the nuclear and engineering divisions and shipyard activity. Outlined software requirements, met with stakeholders, and collected feedback from pre- and post-deployment usage.</para>
+      </description>
+      <projects>
+	<project>Iraq "No-Fly Zone" Enforcement</project>
+	<project><link href="http://en.wikipedia.org/wiki/USS_Carl_Vinson_(CVN-70)">Initial Response in Afghanistan to 9/11</link></project>
+	<project>Developed a shipboard-shipyard engineering/nuclear workflow management system</project>
+	<project>Nuclear engineering vibration analysis and QA program</project>
+      </projects>
+    </job>
+
+    <job targets="compsci">
+      <jobtitle>Engineering Mathematics Lab Administrator</jobtitle>
+      <period>
+	<from><date><month>October</month><year>1995</year></date></from>
+	<to><date><month>March</month><year>1996</year></date></to>
+      </period>
+      <employer>Texas A&amp;M University Mathematics Department</employer>
+      <location><city>College Station</city><state>TX</state></location>
+      <description>Ran a computing lab of symbolic algebra system worksations for engineering students. Provided technical support, assistance, and tutoring in engineering/simulation problem-solving and brainstorming.</description>
+    </job>
+
+    <job targets="compsci,consulting">
+      <jobtitle>Independent Tutor in Mathematics and the Sciences</jobtitle>
+      <period>
+	<from><date><year>1992</year></date></from>
+	<to><date><year>1997</year></date></to>
+      </period>
+      <location>Various</location>
+      <description>Provided tutoring services to fellow students at a competitive rate. Fostered consistent success through highly-approachable explanations of deep technical and conceptual foundations of the field. Marketed entirely through word-of-mouth recommendations.</description>
+    </job>
+
+    <job targets="compsci,lisp">
+      <jobtitle>Engineering CAD Draftsman (intern)</jobtitle>
+      <period>
+	<from><date><year>1994</year></date></from>
+	<to><date><year>1995</year></date></to>
+      </period>
+      <employer>O'Brien Manufacturing</employer>
+      <location><city>Houston</city><state>TX</state></location>
+      <description>CAD/3D rendering of existing technical drawings for mockups of customer equipment in existing and potential products.</description>
+    </job>
+    -->
+
+  </history>
+
+  <academics>
+    <degrees>
+      <degree targets="nuclear">
+	<level>US Navy Nuclear Reactor Engineer Certification</level>
+	<major>Electronics and Power Distribution</major>
+	<date>
+	  <month>December</month><year>1997</year>
+	</date>
+	<institution>Naval Nuclear Power School</institution>
+      </degree>
+      <degree>
+	<level>AS-equivalent coursework</level>
+	<major>Computer Science and Mathematics</major>
+	<date>
+	  <month>March</month><year>1996</year>
+	</date>
+	<institution>Texas A&amp;M University</institution>
+	<annotation>
+	  <para>Completed two years of honors course work in engineering and mathematics, along with much independent study in computer science and mathematics, logic and philosophy.</para>
+	</annotation>
+      </degree>
+      <degree>
+	<level>High School Diploma with Honors</level>
+	<date><month>May</month><year>1995</year></date>
+	<institution>Humble High School, TX</institution>
+	<gpa>
+	  <score>4.7</score>
+	  <possible>5.0</possible>
+	</gpa>
+	<note>Graduated in Top 10, academically, with numerous awards, led science and math clubs to several state competitions.</note>
+      </degree>
+    </degrees>
+    <note>
+      <para>I am primarily self-educated over the years, accumulating quite a library and using it regularly. I also correspond regularly with post-doctorate researchers on relevant topics.</para>
+    </note>
+  </academics>
+
+  <clearances>
+    <clearance>
+      <level>Classified</level>
+      <organization>US Navy / US Department of Energy</organization>
+      <date><year>1996</year></date>
+      <note>FBI background checks.</note>
+    </clearance>
+  </clearances>
+
+  <skillarea targets="compsci">
+    <title>Systems Software Development</title>
+    <skillset>
+      <skill level="10 years">Programming Language Design</skill>
+      <skill level="expert">Domain-Specific Language Design and Implementation</skill>
+      <skill level="intermediate">Compiler Implementation</skill>
+      <skill level="4 years">Virtual Machine Implementation</skill>
+      <skill level="4 years">Managed Run-time Implementation</skill>
+      <skill level="intermediate">Formal Methods to Analyze and Simulate Concurrent and Distributed Software Designs</skill>
+    </skillset>
+  </skillarea>
+
+  <skillarea targets="programming languages">
+    <title>Programming Languages</title>
+    <skillset>
+      <skill level="expert">C++/STL/Boost</skill>
+      <skill level="beginner">Java (J2SE)</skill>
+      <skill level="1 year">C#/.NET Framework</skill>
+      <skill level="4 years">Perl, Python, PHP5</skill>
+      <skill level="3 years">XML, XSLT, XSL-FO, XML for resumes</skill>
+      <skill level="2 years">Javascript, Prototype/Scriptaculous AJAX toolkits</skill>
+    </skillset>
+    <skillset>
+      <title>Advanced</title>
+      <skill level="expert" targets="lisp,smalltalk"><link href="http://squeak.org">Squeak Smalltalk</link></skill>
+      <skill targets="lisp,smalltalk">Dolphin Smalltalk</skill>
+      <skill targets="lisp,smalltalk">Common Lisp (CMUCL/SBCL/OpenMCL)</skill>
+      <skill targets="lisp,smalltalk">Scheme (Guile/Bigloo/DrScheme)</skill>
+      <skill level="1 year">Ruby</skill>
+    </skillset>
+  </skillarea>
+
+  <skillarea targets="compsci,dba,db">
+    <title>Databases</title>
+    <skillset>
+      <skill level="expert">Schema Design and Implementation</skill>
+      <skill level="intermediate">Schema Analysis and Optimization</skill>
+      <skill level="expert">Query and Stored-Procedure Design and Optimization</skill>
+      <skill level="intermediate">Security/Vulnerability Analysis</skill>
+    </skillset>
+    <skillset>
+      <title>Implementations</title>
+      <skill level="2 years">MySQL</skill>
+      <skill level="4 years">PostGreSQL</skill>
+      <skill level="3 years">Microsoft SQL Server</skill>
+      <skill level="1 year">SQL Server OLAP Cube Management</skill>
+    </skillset>
+  </skillarea>
+
+  <skillarea targets="compsci,webdev">
+    <title>Web Development</title>
+    <skillset>
+      <skill level="intermediate">PHP5</skill>
+      <skill level="3 years">Semantic HTML/CSS/Javascript presentation/layout/behavior</skill>
+      <skill level="2 years">AJAX programming with Prototype/Scriptaculous toolkit, design/interaction patterns</skill>
+    </skillset>
+    <skillset>
+      <title>Advanced Frameworks</title>
+      <skill level="intermediate">Seaside (Squeak)</skill>
+      <skill level="intermediate">Uncommon Web (Common Lisp)</skill>
+      <skill level="1 year">Ruby on Rails</skill>
+    </skillset>
+  </skillarea>
+
+  <skillarea targets="compsci">
+    <title>Source Management</title>
+    <skillset>
+      <title>Revision Control</title>
+      <skill level="expert">Subversion, CVS, DARCS</skill>
+      <skill>git, SourceSafe, SourceDepot, Perforce</skill>
+    </skillset>
+    <skillset>
+      <title>Documentation</title>
+      <skill level="3 years">Doxygen</skill>
+      <skill>Trac</skill>
+      <skill>MediaWiki (including administration)</skill>
+      <skill>UML diagram authoring</skill>
+    </skillset>
+  </skillarea>
+
+  <skillarea targets="admin compsci">
+    <title>Systems Administration</title>
+    <skillset>
+      <skill level="intermediate">Linux/FreeBSD/Unix</skill>
+      <skill level="intermediate">Win2k/XP/2003</skill>
+    </skillset>
+  </skillarea>
+
+  <memberships>
+    <title>Professional Memberships</title>
+    <membership>
+      <title>Co-Founder, Core Participant</title>
+      <organization><link href="http://saturdayhouse.org">Saturday House</link></organization>
+      <period><from><date><year>2007</year></date></from></period>
+      <period><to><present/></to></period>
+    </membership>
+    <membership>
+      <title>Participant, Initial Board Member</title>
+      <organization><link href="http://sixhourstartup.com">Six-Hour Startup</link></organization>
+      <period><from><date><year>2007</year></date></from></period>
+      <period><to><present/></to></period>
+    </membership>
+    <membership>
+      <title>Organizer, Planner</title>
+      <organization><link href="http://seattlemind.com">Seattle Mind Camp</link></organization>
+      <period><from><date><year>2005</year></date></from>
+	<to><date><present/></date></to></period>
+    </membership>
+    <membership>
+      <title>Member</title>
+      <organization><link href="http://www.stic.org">Smalltalk Industry Council</link></organization>
+      <period><from><date><year>2002</year></date></from>
+	<to><date><present/></date></to></period>
+    </membership>
+    <membership>
+      <title>Member</title>
+      <organization><link href="http://www.alu.org">Association of Lisp Users</link></organization>
+      <period><from><date><year>2002</year></date></from>
+	<to><date><present/></date></to></period>
+    </membership>
+    <membership>
+      <title>Lead Researcher, Designer, and Coordinator</title>
+      <organization><link href="http://tunes.org">The TUNES.org project</link></organization>
+      <period><from><date><month>October</month><year>1999</year></date></from>
+	<to><date><present/></date></to></period>
+      <description>Helped re-design the site and its documentation to reflect a broader range of technical research and to separate political from technical goals.</description>
+    </membership>
+  </memberships>
+
+  <referees>
+    <referee>
+      <name><firstname>Tony</firstname><surname>Galuhn</surname></name>
+      <contact>
+	<phone>619.846.1939</phone>
+	<email>tgaluhn@cox.net</email>
+      </contact>
+    </referee>
+    <referee>
+      <name><firstname>Joseph</firstname><surname>Brothers</surname></name>
+      <contact>
+	<phone>206.550.5145</phone>
+	<email>brothers@halcyon.com</email>
+      </contact>
+    </referee>
+    <referee>
+      <name><firstname>Aaron</firstname><surname>Hoffer</surname></name>
+      <title>Software Process Coordinator</title>
+      <organization>T-Mobile</organization>
+      <contact>
+	<phone>206.226.4238</phone>
+	<email>aaron@hoffer.org</email>
+      </contact>
+    </referee>
+    <referee>
+      <name><firstname>Robin</firstname><surname>Battey</surname></name>
+      <title>Network/Systems Security Consultant</title>
+      <contact>
+	<phone>206.909.0262</phone>
+	<email>zanfur@zanfur.com</email>
+      </contact>
+    </referee>
+    <!--
+    <referee>
+      <name><firstname>Elric</firstname><surname>Scott</surname></name>
+      <title>Software Development Engineer, Testing</title>
+      <organization>SchemaLogic, Inc.</organization>
+      <contact>
+	<phone>206.367.8509</phone>
+	<email>elric@elric.com</email>
+      </contact>
+    </referee>
+    -->
+  </referees>
+
+  <copyright>
+    <year>2007-2009</year>
+    <name><firstname>Brian</firstname><surname>Rice</surname></name>
+    <legalnotice>
+      <para>All rights reserved. This document may not be copied or distributed without permission.</para>
+    </legalnotice>
+  </copyright>
+
+</resume>

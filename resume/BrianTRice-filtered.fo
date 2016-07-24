@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:r="http://xmlresume.sourceforge.net/resume/0.0">
+<fo:layout-master-set>
+<fo:simple-page-master master-name="resume-page" margin-top="0.75in" margin-left="0.6in" margin-right="0.6in" margin-bottom="0in" page-height="11in" page-width="8.5in">
+<fo:region-body overflow="hidden" margin-bottom="0.6in"/>
+<fo:region-after overflow="hidden" extent="0.6in"/>
+</fo:simple-page-master>
+</fo:layout-master-set>
+<fo:page-sequence master-reference="resume-page">
+<fo:static-content flow-name="xsl-region-after">
+<fo:block text-align="start" font-size="8pt" font-family="serif">Brian T. Rice - Résumé - page <fo:page-number/>
+</fo:block>
+</fo:static-content>
+<fo:flow flow-name="xsl-region-body">
+<fo:block start-indent=".5in" font-family="serif" font-size="10pt">
+  <fo:block space-after="0.750em">
+<fo:block font-style="normal" font-weight="bold" font-size="10pt">Brian T. Rice</fo:block>
+<fo:block><fo:block/>      3848 NE 87th St.<fo:block/>      Seattle<fo:block/>      WA<fo:block/>      98115-3733<fo:block/>    </fo:block>
+<fo:block space-before="0.4em">
+      <fo:block>
+<fo:inline font-style="italic">Phone:</fo:inline> 206.697.5489</fo:block>
+      <fo:block>
+<fo:inline font-style="italic">Email:</fo:inline> BrianTRice@gmail.com</fo:block>
+      <fo:block>
+<fo:inline font-style="italic">URL:</fo:inline> http://briantrice.com/</fo:block>
+    </fo:block>
+</fo:block>
+
+  <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Professional Objective</fo:block>
+    <fo:block space-after="0.750em">I want to participate in new and innovative projects in software product or web services design and development, whether in a startup company or spin-off environment.</fo:block>
+  
+
+  <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Employment History</fo:block>
+    <fo:block>
+<fo:block space-after="0.4em" keep-with-next="always">
+<fo:block keep-with-next="always" font-style="normal" font-weight="bold">Owner</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-style="italic" font-weight="normal">LOGOS Research and Development</fo:inline> (Seattle, WA)</fo:block>
+<fo:block font-style="italic" font-weight="normal">May 2002–Present</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">
+	<fo:block space-after="0.750em">Design, development, and testing of "Clean Slate" Smalltalk: a new programming language and software architecture intended to integrate and improve many disparate technologies into one coherent whole. This will constitute a new kind of software platform which should eventually be commercially viable.</fo:block>
+      </fo:block>
+</fo:block>
+
+    <fo:block>
+<fo:block space-after="0.4em" keep-with-next="always">
+<fo:block keep-with-next="always" font-style="normal" font-weight="bold">Lead Software Developer</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-style="italic" font-weight="normal">Activated Content, Inc.</fo:inline> (Seattle, WA)</fo:block>
+<fo:block font-style="italic" font-weight="normal">March 2006–August 2006</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">
+	<fo:block space-after="0.750em">Embedded systems software development for weather and environmental autonomous sensing stations. Maintained, documented, and upgraded legacy code, extensions, configuration management, and product testing.</fo:block>
+      </fo:block>
+</fo:block>
+    <fo:block>
+<fo:block space-after="0.4em" keep-with-next="always">
+<fo:block keep-with-next="always" font-style="normal" font-weight="bold">Firmware Developer, as Independent Contractor</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-style="italic" font-weight="normal">Coastal Environmental Systems</fo:inline> (Seattle, WA)</fo:block>
+<fo:block font-style="italic" font-weight="normal">June 2005–October 2005</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">
+	<fo:block space-after="0.750em">Embedded systems software development for weather and environmental autonomous sensing stations. This involved maintenance, documentation, upgrade of legacy code and extensions, configuration management, debugging, functional testing, and reliability testing of the product.</fo:block>
+	<fo:block space-after="0.750em">Prepared high-level documentation on the overall parameters and design of the product, and developed a set of recommendations for developing the product forward.</fo:block>
+      </fo:block>
+</fo:block>
+    <fo:block>
+<fo:block space-after="0.4em" keep-with-next="always">
+<fo:block keep-with-next="always" font-style="normal" font-weight="bold">Data Warehousing Systems Engineer</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-style="italic" font-weight="normal">Microsoft, Inc., MSN iDSS division (via Volt Information Services)</fo:inline> (Redmond, WA)</fo:block>
+<fo:block font-style="italic" font-weight="normal">February 2004–February 2005</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">
+	<fo:block space-after="0.750em">Developed and operated infrastructure software for performing data-warehousing processing and validation. Deployed, troubleshot, and operated data-warehouse pipeline software. Worked with SQL Server/OLAP solutions and web site management. Handled the cataloging and replacement of legacy infrastructure software, managed within SourceSafe version control. Administered SQL Server installations and developed a large management database application for auditing and automation purposes. Worked with multiple MSN organizations in negociating interaction protocols and software deployment issues. Developed clustering and optimized pipeline configurations for robustness and performance.</fo:block>
+      </fo:block>
+<fo:block>
+<fo:block keep-with-next="always" font-style="italic" font-weight="normal">Projects:</fo:block>
+<fo:list-block space-after="0.750em" provisional-distance-between-starts="0.750em" provisional-label-separation="1.0em">
+<fo:list-item>
+<fo:list-item-label start-indent=".5in" end-indent="label-end()">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+	  MSN adCenter
+	</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+</fo:block>
+    <fo:block>
+<fo:block space-after="0.4em" keep-with-next="always">
+<fo:block keep-with-next="always" font-style="normal" font-weight="bold">Software Design and Research Consultant</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-style="italic" font-weight="normal">Ibis Information Securities</fo:inline> (Seattle, WA)</fo:block>
+<fo:block font-style="italic" font-weight="normal">December 2002–June 2003</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">
+	<fo:block space-after="0.750em">Consulted in the development of innovative wireless technologies and the software required to manage them. Also consulted in the field of online data-mining in the systems security field. I designed and developed an innovative product using dynamic language technologies.</fo:block>
+      </fo:block>
+</fo:block>
+    <fo:block>
+<fo:block space-after="0.4em" keep-with-next="always">
+<fo:block keep-with-next="always" font-style="normal" font-weight="bold">Lead Developer</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-style="italic" font-weight="normal">ForeHorseNet, Inc.</fo:inline> (Seattle, WA)</fo:block>
+<fo:block font-style="italic" font-weight="normal">February 2001–December 2003</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">
+	<fo:block space-after="0.750em">Worked with the company founders to develop a coherent technical strategy for the product (online payment system), by evaluating customer requirements, marketing issues, and suitable technologies and budgeting requirements.</fo:block>
+      </fo:block>
+</fo:block>
+    <fo:block>
+<fo:block space-after="0.4em" keep-with-next="always">
+<fo:block keep-with-next="always" font-style="normal" font-weight="bold">Nuclear Reactor Technician, Workflow Applications Programmer</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-style="italic" font-weight="normal">U.S. Navy</fo:inline> (USS Carl Vinson Bremerton, WA)</fo:block>
+<fo:block font-style="italic" font-weight="normal">March 1996–March 2002</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">
+	<fo:block space-after="0.750em">Electrical and electronics troubleshooting and repair, supervision and training, database applications programmer and administrator for the coordination of hundreds of work activities and information management. Managed a working group for equipment maintenance for over 2 years. Managed a system for equipment Quality Assurance, vibration monitoring, and software management for 2 years.</fo:block>
+	<fo:block space-after="0.750em">Designed, developed, and deployed a database client-server application for coordinating and scheduling activities and their dependencies for the nuclear and engineering sections of the ship as well as its associated shipyard activity. Outlined software requirements, met with several entities, collected feedback from pre- and post-deployment usage, and studied existing systems in effect. The system operated daily with several hundred users, with layers of authorization and up to a dozen concurrent users in normal operation, along with an extensive reporting facility and mechanisms in place for assuring data accuracy and transaction logging.</fo:block>
+      </fo:block>
+<fo:block>
+<fo:block keep-with-next="always" font-style="italic" font-weight="normal">Projects:</fo:block>
+<fo:list-block space-after="0.750em" provisional-distance-between-starts="0.750em" provisional-label-separation="1.0em">
+<fo:list-item>
+<fo:list-item-label start-indent=".5in" end-indent="label-end()">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>Iraq "No-Fly Zone" Enforcement</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label start-indent=".5in" end-indent="label-end()">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>Initial Response in Afghanistan to 9/11</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+</fo:block>
+    <fo:block>
+<fo:block space-after="0.4em" keep-with-next="always">
+<fo:block keep-with-next="always" font-style="normal" font-weight="bold">Engineering Mathematics Lab Administrator</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-style="italic" font-weight="normal">Texas A&amp;M University Mathematics Department</fo:inline> (College Station, TX)</fo:block>
+<fo:block font-style="italic" font-weight="normal">October 1995–March 1996</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">Ran a computing lab for the use of symbolic algebra systems for engineering students of all levels of study. Provided technical support and assistance in making the most out of this software, as well as tutoring in engineering/simulation problem-solving and brainstorming.</fo:block>
+</fo:block>
+    <fo:block>
+<fo:block space-after="0.4em" keep-with-next="always">
+<fo:block keep-with-next="always" font-style="normal" font-weight="bold">Independent Tutor in Mathematics and the Sciences</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-style="italic" font-weight="normal"/> (Various)</fo:block>
+<fo:block font-style="italic" font-weight="normal">1992–1997</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">Provided tutoring services to fellow students at a competitive rate. Fostered consistent success through highly-approachable explanations of deep technical and conceptual foundations of the field. Marketed entirely through word-of-mouth recommendations.</fo:block>
+</fo:block>
+    <fo:block>
+<fo:block space-after="0.4em" keep-with-next="always">
+<fo:block keep-with-next="always" font-style="normal" font-weight="bold">Engineering CAD Draftsman (intern)</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-style="italic" font-weight="normal">O'Brien Manufacturing</fo:inline> (Houston, TX)</fo:block>
+<fo:block font-style="italic" font-weight="normal">1994–1995</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">Rendered an existing library of technical drawings of their product (high-survivability power plant controls/instrumentation enclosures) and set up environments for 3-D layout of customer equipment in existing and potential products.</fo:block>
+</fo:block>
+  
+
+  <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Education</fo:block>
+      
+      <fo:block space-after="0.750em">
+<fo:block keep-with-next="always">
+<fo:inline font-style="normal" font-weight="bold">AS-equivalent coursework in Computer Science and Mathematics</fo:inline>, March 1996. 
+	  <fo:block space-after="0.750em">Completed two years of honors course work in engineering and mathematics, along with much independent study in computer science and mathematics, logic and philosophy.</fo:block>
+	</fo:block>
+<fo:block>Texas A&amp;M University</fo:block>
+</fo:block>
+      <fo:block space-after="0.750em">
+<fo:block keep-with-next="always">
+<fo:inline font-style="normal" font-weight="bold">High School Diploma with Honors</fo:inline>, May 1995</fo:block>
+<fo:block>Humble High School, TX</fo:block>
+<fo:block space-before="0.4em">
+<fo:inline font-weight="normal" font-style="italic">Overall GPA</fo:inline>: 4.7 out of 5.0</fo:block>
+</fo:block>
+    <fo:block font-weight="normal" font-style="italic">
+      <fo:block space-after="0.750em">I am primarily self-educated over the years, accumulating quite a library and using it regularly. I also correspond regularly with post-doctorate researchers on relevant topics.</fo:block>
+    </fo:block>
+
+  <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Security Clearances</fo:block>
+<fo:list-block space-after="0.750em" provisional-distance-between-starts="0.750em" provisional-label-separation="1.0em">
+<fo:list-item>
+<fo:list-item-label start-indent=".5in" end-indent="label-end()">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="normal" font-style="italic">Classified</fo:inline>, US Navy / US Department of Energy, 1996. FBI background checks.</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+
+  <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Systems Software Development</fo:block>
+<fo:block space-after="0.4em">
+<fo:inline font-style="italic" font-weight="normal"/>Programming Language Design (10 years), Domain-Specific Language Design and Implementation (expert), Compiler Implementation (intermediate), Virtual Machine Implementation (4 years), Managed Run-time Implementation (4 years), Formal Methods to Analyze and Simulate Concurrent and Distributed Software Designs (intermediate).</fo:block>
+
+  
+
+  <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Databases</fo:block>
+<fo:block space-after="0.4em">
+<fo:inline font-style="italic" font-weight="normal"/>Schema Design and Implementation (expert), Schema Analysis and Optimization (intermediate), Query and Stored-Procedure Design and Optimization (expert), Security/Vulnerability Analysis (intermediate), OLAP Cube Management (1 year), MySQL (2 years), PostGreSQL (3 years), Microsoft SQL Server (3 years).</fo:block>
+
+  <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Web Development</fo:block>
+<fo:block space-after="0.4em">
+<fo:inline font-style="italic" font-weight="normal"/>PHP Programming (intermediate), Semantic HTML/CSS/Javascript presentation/layout/behavior (expert), AJAX-style Web-development (1 year).</fo:block>
+
+  <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Source Control</fo:block>
+<fo:block space-after="0.4em">
+<fo:inline font-style="italic" font-weight="normal"/>Subversion, CVS (expert), DARCS (expert), SourceSafe, SourceDepot, Perforce.</fo:block>
+
+  <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">Professional Memberships</fo:block>
+<fo:block space-after="0.4em" keep-with-next="always">
+<fo:block font-weight="bold" font-style="normal">Member</fo:block>
+<fo:block keep-with-next="always">Smalltalk Industry Council</fo:block>
+<fo:block keep-with-next="always">2002–</fo:block>
+</fo:block>
+<fo:block space-after="0.4em" keep-with-next="always">
+<fo:block font-weight="bold" font-style="normal">Member</fo:block>
+<fo:block keep-with-next="always">Association of Lisp Users</fo:block>
+<fo:block keep-with-next="always">2002–</fo:block>
+</fo:block>
+<fo:block space-after="0.4em" keep-with-next="always">
+<fo:block font-weight="bold" font-style="normal">Lead Researcher, Designer, and Coordinator</fo:block>
+<fo:block keep-with-next="always">The TUNES.org project</fo:block>
+<fo:block keep-with-next="always">October 1999–</fo:block>
+</fo:block>Helped re-design the site and its documentation to reflect a broader range of technical research and to separate political from technical goals.
+
+  <fo:block start-indent="0in" font-size="10pt" font-family="sans-serif" font-weight="bold" space-before="0.750em" space-after="0.750em" border-bottom-style="none" border-bottom-width="thin" keep-with-next="always">References</fo:block>
+<fo:block space-after="0.750em">Available upon request.</fo:block>
+
+  <fo:block start-indent="0in" font-size="8pt">
+<fo:block keep-with-next="always">Copyright © 2006 by Brian Rice. </fo:block>
+      <fo:block space-after="0.750em">All rights reserved. This document may not be copied or distributed without permission.</fo:block>
+    </fo:block>
+
+</fo:block>
+</fo:flow>
+</fo:page-sequence>
+</fo:root>
