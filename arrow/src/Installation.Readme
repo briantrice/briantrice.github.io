@@ -1,0 +1,35 @@
+I will put together all of my arrow code releases into this directory:  
+http://www.tunes.org/~water/arrow/src until arrow.cx is back up and
+running. (Or maybe arrow.tunes.org).
+
+The first option to load the Arrows code is to load: 
+
+http://www.tunes.org/~water/arrow/Arrow-current.cs
+
+into Squeak, and then load as a file
+
+http://www.tunes.org/~water/arrow/ArrowTests.text
+
+The latter is not used by Squeak itself; I merely used it to test some of
+my classes and keep track of developments.
+
+If you are new to Smalltalk or Squeak, then this latter approach will help
+out, although it requires you to get the newest version of Squeak.
+http://www.tunes.org/~water/arrow/Arrows.pr is a Squeak Project which 
+will load a desktop with windows laid out for browsing the code.
+
+You also should download a VM for your platform, whether 3.0 or earlier:
+they are all compatible. Newer VM versions just have enhanced features and
+fixes. Unpack everything into a single directory and execute the VM so
+that it picks the right image on its own.
+
+The benefits of using the Project format is that it loads up a desktop
+environment for Squeak which highlights various interesting bits about
+Arrow code in the way that I happened to set it up. I have more code to
+work on which will take a little time, but for now it will be worthwhile
+to look through the documentation at the very least for the code.
+
+Please bring up any question, no matter how small. Use
+http://www.squeak.org or http://minnow.cc.gatech.edu/squeak instead for
+Squeak specific information. Also of course I am interested to know what
+people think.

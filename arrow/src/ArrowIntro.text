@@ -1,0 +1,109 @@
+An overview of Arrows release 0.1:
+
+Arrows 0.1 is a package for handling the basics of constructive arrow logic and graph and frame logic, as a basis for a pattern-matching layer and programming layer to be hosted within the system to support its development. These latter are not yet implemented. (Certain places in the code are noted this way.)
+
+The basics of Arrows:
+
+Arrows have head and tail references as their information content. Some may have partial content and some may not have this content at all, but it is a guaranteed protocol to access information from arrows using this binary pair of references. The semantics of arrows are flexible: they are not pair-values unless the context sets up a sub-system of arrows that way. There are other examples of flexible semantics to be introduced later in this essay.
+
+Arrows have a certain basic logic, which for now is accessed via Smalltalk expressions. [NOTE: soon to be replaced by a simple list-based interpretation scheme.] We will start with some example arrows that you can use to see for yourself how the system behaves. (For some familiarity with the Smalltalk language and Squeak, consult http://www.mucow.com/squeak-qref.html as a quick reference.)
+
+Copy and paste these into a Smalltalk workspace, then "Do them" (select and alt-d) to initialize the workspace:
+
+	a _ Arrow new name: 'a'.
+	b _ (a -> Arrow new) name: 'b'.
+	c _ (a -> b) name: 'c'.
+	e _ Arrow new.
+	d _ (Arrow from: b to: e) name: 'd'.
+
+These add bindings to the environment that the workspace maintains, so they are local to the workspace window (there are more features to this, but that's beyond the scope).
+
+Each of these represents various ways to create new arrows:
+'a' is an abstract arrow: the system does not know a head and tail reference for it; it's just an atom.
+'b' is a (concrete) arrow from 'a' to another abstract arrow distinct from it. The '->' operator is probably the most visually helpful initializer for arrows.
+'c' leads from 'a' to 'b'.
+'e' is abstract.
+'d' leads from 'b' to 'e' as the syntax suggests.
+
+We can also use 'Arrow head: e tail: b' instead of '(b -> e)' if we want a way to see which is head and which is tail textually.
+
+Test for these (select and alt-p to get boolean values):
+
+	(c at: 0) = a.
+	(c at: 1) = b.
+
+(Incidentally, alt-p stands for "Print it". Also, from now on we will use the convention that a Smalltalk expression with an assignment should be evaluated (alt-d), while all other expressions will be tests that return 'true' when printed unless otherwise noted.)
+
+The head and tail references' grouping is isomorphic to the binary digits. This is highly useful when attempting to make analogies between information theory based on sending bit-wise signals and the arrow theory of information.
+
+Here are some synonyms for head and tail:
+
+	c source = a.
+	c destination = b.
+	c target = b.
+	c domainElement = a.
+	c codomainElement = b.
+	c head = b.
+	c tail = a.
+
+The following exemplifies what was stated earlier about arrows not being pair values without the context forcing that semantics. For arrows, the Smalltalk '=' is object identity, while 'equals:' means they have the same value, which is context-determined. In the following, '(a->b)' constructs a separate arrow instance for each of its invocations.
+
+	c ~= (a -> b).
+	c equals: (a -> b).
+	(a -> b) ~= (a -> b).
+	(a -> b) value = (a -> b) value.
+
+To see what the use of name is, print this (select and alt-p):
+
+	a name.
+	c inv name.
+	c tail name.
+
+See the comments in the ArrowStub class for the purpose of 'name'. To see the benefit yourself, select one of the bindings' symbols or the arrow construction expressions and "Explore it" (alt-shift-I) to get a browser window into its structure. Alternatively you can do (alt-d) "foo explore" to get the same result.
+
+These further tests expose more of the arrow protocol, and explains some basic arrow equations:
+
+	(c atBitString: #(1 0)) = a.
+	c raiseTail equals: c -> c tail.
+	c raiseHead equals: c -> c head.
+	c inv equals: (c head -> c tail).
+	a identity = a.
+	a raiseIdentity equals: (a -> a).
+	(a -> a) isIdentity.
+
+'atBitString:' allows you to sequentially compose head and tail accesses by packaging them into the array syntax you see above. An alternative array construct that accepts expressions and evaluates them is '{1. 0}'.
+
+'raiseTail' and 'raiseHead' are specializations of the 'raise:' protocol. The raise protocol acts on functions over arrows and returns the arrow within the function that led to the result. So for the head and tail selections, raiseHead and raiseTail answer with the arrows defining the relationship between an arrow and the arrows it refers to. Later we will see what more structure this has.
+
+'inv' or 'invert' or 'inverse' is a constructor of an arrow with the same references in the opposite order.
+
+'identity' returns its argument, and 'raiseIdentity' produces an arrow leading from the argument to the argument, which is also called an identity arrow. 'isIdentity' is a test with obvious meaning.
+
+The third basic arrow operation is composition, and we have introduced some more complex protocol to help explain its semantics:
+
+	d equals: (b -> e).
+	c incidesUpon: b coord: 1.
+	d incidesUpon: b coord: 0.
+	c coincidesWith: d coords: 1@0.
+	(c coincidesWith: d coords: 1@1) not.
+	c ++ d equals: (a -> e).
+	(c -> d) composeElements equals: (a -> e).
+	(c ++ d equals: (c -> d)) not.
+	d ++ c = nil.
+
+The first test just reminds us of the value of d.
+'incidesUpon:coord:' and 'coincidesWith:coords:' allows us to examine arrow references as incidence relations, using binary addressing to specify which incidence we mean. (And incidence is not a special term: "a incides upon b" just means that a refers to b somehow. Co-incidence is just sharing of an incidence relationship.) Again, '0' refers to the tail reference, and '1' to the head.
+
+Arrows must be in this configuration to compose, which the above tests confirm:
+a -c-> b -d-> e
+
+With the result being in this configuration:
+a -c++d-> e
+
+NOTE: the above just describes constructional composition and constructional inversion. To be included in later releases of Arrow are frameworks for abstractly (or axiomatically) specifying composition and inversion semantics.
+
+NOTE 2: Failure is currently handled by returning the object 'nil'. Expect this to change in future releases.
+
+Graphs are very interesting as a first arrow construct application. They have a (local) set-theoretic interpretation, a relational/functional interpretation, and a further representation of the set-theoretic level. Of course we first need to make some graphs to see what this means.
+
+

@@ -1,0 +1,112 @@
+INTRODUCTION: This allows you to see some small examples of what the arrow package is currently capable of and what it lacks. This is not a tutorial as such. A lot of the introductory documentation is in the class comments. However, this should be the basis of a tutorial when it becomes appropriate.
+
+For some familiarity with the Smalltalk language and Squeak, consult http://www.mucow.com/squeak-qref.html as a quick reference.
+
+Constructive things:
+
+Do these (select and alt-d) to initialize this workspace:
+
+	a _ Arrow new name: 'a'.
+	b _ (a -> Arrow new) name: 'b'.
+	c _ (a -> b) name: 'c'.
+	e _ Arrow new.
+	d _ (b -> e) name: 'd'.
+
+To see what the use of name is, print this (select and alt-p):
+
+	a name.
+	c inv name.
+	c tail name.
+
+Test for these (select and alt-p to get boolean values):
+
+	(c at: 0) = a.
+	(c at: 1) = b.
+
+Here are some synonyms and further information:
+	
+	c source = a.
+	c destination = b.
+	c target = b.
+	c domainElement = a.
+	c codomainElement = b.
+	c head = b.
+	c tail = a.
+	c ~= (a -> b).
+	c equals: (a -> b).
+
+These further tests expose more of the arrow protocol, and explains some basic arrow equations:
+
+	(c atBitString: #(1 0)) = a.
+	c raiseTail equals: c -> c tail.
+	c raiseHead equals: c -> c head.
+	c inv equals: (c head -> c tail).
+	a raiseIdentity equals: (a -> a).
+	(a -> a) isIdentity.
+
+Arrow composition tests:
+
+	d equals: (b -> e).
+	c coincidesWith: d coords: 1@0.
+	(c coincidesWith: d coords: 1@1) not.
+	c ++ d equals: (a -> e).
+	(c -> d) composeElements equals: (a -> e).
+	(c ++ d equals: (c -> d)) not.
+	d ++ c = nil.
+
+NOTE: Failure is currently handled by returning the object 'nil'. Expect this to change in future releases.
+
+Constructed arrows do not have value semantics. Each construction is a separate instance:
+
+	(a -> a) ~= (a -> a).
+	(a -> a) value = (a -> a) value.
+
+Frames:
+
+ArrowFrame initialize
+
+Test for these:
+
+	ArrowWorld includes: a
+	ArrowWorld includes: a head
+	ArrowWorld includes: c value
+	ArrowWorld includes: a raiseIdentity
+	(ArrowWorld arrows cache includes: a) not
+
+Do this:
+
+	ArrowWorld explore.
+
+ArrowWorld is inferred to contain everything by default, unless you add an arrow to a new frame explicitly. Meta-arrows over any arrow always lie in the same frame for now.
+
+
+These currently fail:
+
+	a raiseHead.
+	a raiseTail.
+
+a is an abstract arrow. Reifying its references is not handled yet, but is required for full equational semantics. Actually, almost all of the above operations are not handled for abstract arrows yet, except by relying on a set of #head and #tail methods to operate as abstractly as they could by referring to their frame's structure and returning a promise to search that.
+
+Smalltalk MOP tests:
+
+	f _ ArrowWorld objects.
+	g _ Arrow wrapping: MethodDictionary in: f
+	f subclassOf * (f arrowFor: Dictionary) includes: g
+
+Arrow wrappers of Smalltalk objects are unique per (object, objectGraph) pair.
+
+	(WrapperArrow for: a in: f) == (WrapperArrow for: a in: f)
+
+An arrow wrapper can wrap any Smalltalk object, including those representing arrows and graphs, except for itself.
+
+Filtering any graph or object-representing graph is done with >> and a Smalltalk block closure. The returned graph can be further filtering with the same operator. Cache management is intelligent and lazy. The following example yields all objects of class 'Arrow'.
+
+	h _ f >> [:each | each class == Arrow]
+	h includes: (Arrow wrapping: a in: f)
+
+The use of set operations is handled efficiently:
+
+	h | f == f
+	h & f == h
+
+
