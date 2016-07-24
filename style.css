@@ -1,0 +1,109 @@
+/* Web 2.0 fluff: */
+
+body {
+font-family: /*"Gill Sans", Tahoma, Verdana,*/ arial, sans-serif;
+font-size: 100%;
+/* line-height: 1.5em; */
+color: #555555;
+margin: 1em 2em;
+}
+
+h1 {
+font-size: 2em;
+margin-bottom: 0em;
+}
+
+h2 {
+font-size: 1.4em;
+}
+
+h3 {
+font-size: 1.1em;
+}
+
+p { font-size: small; line-height: 1.5em; }
+ol li { font-size: small; line-height: 1.5em; }
+
+a:link { color: #5555AA; }
+a:visited { color: #333377; }
+a:hover { color: #FFFFFF; background-color: #5555AA; text-decoration: none; }
+a:hover img { background-color: white; }
+
+#navigation ul
+{
+padding-left: 0;
+margin-left: 0;
+background-color: #036;
+color: white;
+float: left;
+width: 100%;
+font-family: arial, helvetica, sans-serif;
+}
+
+#navigation ul li { display: inline; }
+
+#navigation ul li a
+{
+padding: 0.2em 1em;
+background-color: #036;
+color: #eeeeee;
+text-decoration: none;
+text-align: center;
+width: 6em;
+float: left;
+border-right: 1px solid #fff;
+}
+
+#navigation ul li a:hover
+{
+background-color: #369;
+color: white;
+}
+
+#navigation ul li #active { font-weight: bold; }
+
+#navigation a {
+color: #FFFFFF;
+padding: 0.5em;
+}
+
+ul {
+list-style: none;
+margin-left: 0;
+padding-left: 1em;
+text-indent: -1em;
+}
+
+iframe {
+padding-left: 3em;
+border: 0;
+}
+
+.pin-title { font-size:1em;text-decoration:none;color:#00a}
+.pin-description { color:#555; }
+.pin-tag { color:#18c;text-decoration:none;font-size:0.9em; }
+
+#donations { font-size: smaller; width: 30%; }
+
+div.vcard {
+padding:.5em;
+background:#ccc;
+border:1px solid black;
+margin-right:2em;
+font-size:90%;
+width:25em;
+height:9em;
+}
+
+div.vcard img.photo {
+float:left;
+margin-right:4px;
+}
+
+div.vcard a { clear: right; }
+
+.x { border-left: 1px dotted #DDDDDD; }
+
+div.x { padding-left: 1em; }
+
+.booktitle { text-decoration: underline; }

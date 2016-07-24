@@ -1,0 +1,1 @@
+RedirectMatch ^/\+(.*)$ http://plus.google.com/101856701826717012407/$1

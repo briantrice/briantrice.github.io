@@ -1,0 +1,9 @@
+body {
+background-color: white;
+background-image: url(Images/gradient.jpg);
+background-repeat: repeat-x;
+}
+
+h1 {
+color: white;
+}
